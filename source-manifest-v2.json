@@ -1,0 +1,1702 @@
+{
+  "schemaVersion": 1,
+  "runtimeVersion": "26.8.1.1",
+  "sourceCommit": "bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1",
+  "distributionApproved": false,
+  "scope": "Fixed source artifacts including eleven statically included copyleft libraries confirmed by defined exported symbols in the unchanged LibreOffice 26.8.1.1 libmergedlo.dylib. Checks byte identity only; no blanket licensing or TestFlight approval.",
+  "missingEvidence": [],
+  "artifacts": [
+    {
+      "component": "LibreOffice libreoffice-26.8.1.1.tar.xz",
+      "role": "official complete source archive",
+      "path": "archives/libreoffice-26.8.1.1.tar.xz",
+      "url": "https://download.documentfoundation.org/libreoffice/src/26.8.1/libreoffice-26.8.1.1.tar.xz",
+      "sha256": "296ba78e7ab0d381b94c3d6342f4ebb2320ee5097ca58781b9b744cab90b9785"
+    },
+    {
+      "component": "LibreOffice libreoffice-dictionaries-26.8.1.1.tar.xz",
+      "role": "official complete source archive",
+      "path": "archives/libreoffice-dictionaries-26.8.1.1.tar.xz",
+      "url": "https://download.documentfoundation.org/libreoffice/src/26.8.1/libreoffice-dictionaries-26.8.1.1.tar.xz",
+      "sha256": "ce366c50178f5bdf6df1c6df4a0146899cf27a0017734190d00d90f0c5acac61"
+    },
+    {
+      "component": "LibreOffice libreoffice-help-26.8.1.1.tar.xz",
+      "role": "official complete source archive",
+      "path": "archives/libreoffice-help-26.8.1.1.tar.xz",
+      "url": "https://download.documentfoundation.org/libreoffice/src/26.8.1/libreoffice-help-26.8.1.1.tar.xz",
+      "sha256": "f1de4054194e8718f699ddf2b269165613c8dd07c10c55b32968c977f0c6234f"
+    },
+    {
+      "component": "LibreOffice libreoffice-translations-26.8.1.1.tar.xz",
+      "role": "official complete source archive",
+      "path": "archives/libreoffice-translations-26.8.1.1.tar.xz",
+      "url": "https://download.documentfoundation.org/libreoffice/src/26.8.1/libreoffice-translations-26.8.1.1.tar.xz",
+      "sha256": "789519befa409d7eec24043cea41ddd318d9f1212f555d8b28d4982e35693bfc"
+    },
+    {
+      "component": "gpgmepp",
+      "dependencyKey": "GPGME",
+      "role": "exact pinned external source archive",
+      "path": "archives/gpgme-1.24.3.tar.bz2",
+      "url": "https://dev-www.libreoffice.org/src/gpgme-1.24.3.tar.bz2",
+      "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd"
+    },
+    {
+      "component": "libassuan",
+      "dependencyKey": "LIBASSUAN",
+      "role": "exact pinned external source archive",
+      "path": "archives/libassuan-3.0.2.tar.bz2",
+      "url": "https://dev-www.libreoffice.org/src/libassuan-3.0.2.tar.bz2",
+      "sha256": "d2931cdad266e633510f9970e1a2f346055e351bb19f9b78912475b8074c36f6"
+    },
+    {
+      "component": "lpsolve",
+      "dependencyKey": "LPSOLVE",
+      "role": "exact pinned external source archive",
+      "path": "archives/26b3e95ddf3d9c077c480ea45874b3b8-lp_solve_5.5.tar.gz",
+      "url": "https://dev-www.libreoffice.org/src/26b3e95ddf3d9c077c480ea45874b3b8-lp_solve_5.5.tar.gz",
+      "sha256": "171816288f14215c69e730f7a4f1c325739873e21f946ff83884b350574e6695"
+    },
+    {
+      "component": "cairo",
+      "dependencyKey": "CAIRO",
+      "role": "exact pinned external source archive",
+      "path": "archives/cairo-1.18.4.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/cairo-1.18.4.tar.xz",
+      "sha256": "445ed8208a6e4823de1226a74ca319d3600e83f6369f99b14265006599c32ccb"
+    },
+    {
+      "component": "liblangtag",
+      "dependencyKey": "LIBLANGTAG",
+      "role": "exact pinned external source archive",
+      "path": "archives/liblangtag-0.6.8.tar.bz2",
+      "url": "https://dev-www.libreoffice.org/src/liblangtag-0.6.8.tar.bz2",
+      "sha256": "a96975b79ddd8fef6d9295c083fe3f1afa1a8898a57235d4069255ade44e5cf2"
+    },
+    {
+      "component": "libmwaw",
+      "dependencyKey": "MWAW",
+      "role": "exact pinned external source archive",
+      "path": "archives/libmwaw-0.3.23.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libmwaw-0.3.23.tar.xz",
+      "sha256": "ac3590f691a2904eb8c7dc8b757b8a29f125f592449e421459ae8fa928b399eb"
+    },
+    {
+      "component": "librevenge",
+      "dependencyKey": "REVENGE",
+      "role": "exact pinned external source archive",
+      "path": "archives/librevenge-0.0.6.tar.bz2",
+      "url": "https://dev-www.libreoffice.org/src/librevenge-0.0.6.tar.bz2",
+      "sha256": "52a65e904d255dbdd97a8b7bb28d6574e14f999eb01416aff004502406d0904d"
+    },
+    {
+      "component": "libwpd",
+      "dependencyKey": "WPD",
+      "role": "exact pinned external source archive",
+      "path": "archives/libwpd-0.10.3.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libwpd-0.10.3.tar.xz",
+      "sha256": "2465b0b662fdc5d4e3bebcdc9a79027713fb629ca2bff04a3c9251fdec42dd09"
+    },
+    {
+      "component": "libwpg",
+      "dependencyKey": "WPG",
+      "role": "exact pinned external source archive",
+      "path": "archives/libwpg-0.3.4.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libwpg-0.3.4.tar.xz",
+      "sha256": "b55fda9440d1e070630eb2487d8b8697cf412c214a27caee9df69cec7c004de3"
+    },
+    {
+      "component": "libwps",
+      "dependencyKey": "WPS",
+      "role": "exact pinned external source archive",
+      "path": "archives/libwps-0.4.14.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libwps-0.4.14.tar.xz",
+      "sha256": "365b968e270e85a8469c6b160aa6af5619a4e6c995dbb04c1ecc1b4dd13e80de"
+    },
+    {
+      "component": "coinmp",
+      "dependencyKey": "COINMP",
+      "role": "exact pinned external source archive",
+      "path": "archives/CoinMP-1.8.4.tgz",
+      "url": "https://dev-www.libreoffice.org/src/CoinMP-1.8.4.tgz",
+      "sha256": "3459fb0ccbdd39342744684338984ac4cc153fb0434f4cae8cf74bd67490a38d"
+    },
+    {
+      "component": "firebird",
+      "dependencyKey": "FIREBIRD",
+      "role": "exact pinned external source archive",
+      "path": "archives/Firebird-3.0.13.33818-0.tar.bz2",
+      "url": "https://dev-www.libreoffice.org/src/Firebird-3.0.13.33818-0.tar.bz2",
+      "sha256": "bd263c4f685fb8fc3f1dcb8be8a411033cc31c5404d1dfce5d3849aa3f63a64d"
+    },
+    {
+      "component": "nss",
+      "dependencyKey": "NSS",
+      "role": "exact pinned external source archive",
+      "path": "archives/nss-3.129-with-nspr-4.39.tar.gz",
+      "url": "https://dev-www.libreoffice.org/src/nss-3.129-with-nspr-4.39.tar.gz",
+      "sha256": "d389064d5e5ef09d597f8ae8dadc066f71e97b982bd7418b835686425fc3a189"
+    },
+    {
+      "component": "Culmus",
+      "role": "preferred editable SFD source plus font generation script, 0.140",
+      "path": "archives/culmus-src-0.140.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/culmus/culmus/0.140/culmus-src-0.140.tar.gz",
+      "sha256": "ba7cb2c8bf7011e23cf37671a383a6a483903cffbdca4a327e85a8dbec4ec73a"
+    },
+    {
+      "component": "Liberation Sans Narrow",
+      "role": "preferred editable SFD source and Makefile; tag 1.07.6, commit 5462920fee502b688604472e65af49af951bdd56",
+      "path": "archives/liberation-narrow-source-1.07.6.tar.gz",
+      "url": "https://codeload.github.com/liberationfonts/liberation-sans-narrow/tar.gz/5462920fee502b688604472e65af49af951bdd56",
+      "sha256": "0c1dcac4afdea05ba1f869f8fe87d71a2dcd5e3516698b8c18396e39439ea1af"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/0001-const-up-std_cmd_table.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/0001-const-up-std_cmd_table.patch.1",
+      "sha256": "b031c12a1fda21684f295bb05b57da740287db95c65847f6b89ee02ef4a0edf4",
+      "gitBlobSHA1": "96d47e7c6c32535f243fc4f89161a2594ac2baf0"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/ExternalPackage_libassuan.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/ExternalPackage_libassuan.mk",
+      "sha256": "da96eac6591b7f67c5c73a0f1a1f740d043d65a30d28169993ea9bf9b02f70ff",
+      "gitBlobSHA1": "0def15dfb2ec00a0d29dc369d85857caecdeacfd"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/ExternalProject_libassuan.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/ExternalProject_libassuan.mk",
+      "sha256": "ae35d3fe5f412347f2b10adca2b43dfbb01d7537baa9676ac515974ffb90c014",
+      "gitBlobSHA1": "364deeb71fa5fb719272c594e74c64695b5654e4"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/Makefile",
+      "sha256": "bf5188948b56ad718a1ab1231bb777403e1152860c38565a06835893d24fea13",
+      "gitBlobSHA1": "569ad8a0ba7a7d905032ae023e94e70d4410df3e"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/Module_libassuan.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/Module_libassuan.mk",
+      "sha256": "0dd1ebe6145f49165e6332da59985a7e4f272ec078cb9504ec05fe438d1306fc",
+      "gitBlobSHA1": "45ada66ee055d3070b88e254a6a890e1fa319faa"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/README",
+      "sha256": "fd95753c30c761f1244da939b7a1f004068173066adf5c278240cf9cb57b2928",
+      "gitBlobSHA1": "cd35103a1e94bd8512f297c8acbda05cce1dd190"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/UnpackedTarball_libassuan.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/UnpackedTarball_libassuan.mk",
+      "sha256": "1d80470825be00bda5509132467e6c98d6234c118fca62a82ccd3ec406156f45",
+      "gitBlobSHA1": "961247e13f8334d22b4c8c1b7cd59d11eadbba60"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/find-libgpg-error.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/find-libgpg-error.patch",
+      "sha256": "b164d14097ac32c38eb93be4dad39f694927e043dce89c41488210a98f52fd6f",
+      "gitBlobSHA1": "fd09aa64721dd2c896bc7ddfd71c83b7d7299d9b"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/fix-autoconf-macros.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/fix-autoconf-macros.patch",
+      "sha256": "9bcb759227dcea45dc15c2b9d835b16ffbb5cde14df1d3426f7beface0afdf98",
+      "gitBlobSHA1": "743ca460ba9dcb91d8be06be9ff508fc3dfc3083"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/rpath.patch",
+      "sha256": "ca7275be0d8f7cf72fe6613a94633d81668d76393cd406f6953d6ea0770f2885",
+      "gitBlobSHA1": "73c10e34247cdeb3ca14530ebd496a3931c72d5d"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/w32-build-fixes-2.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/w32-build-fixes-2.patch",
+      "sha256": "013eb20853541ff1612847c581a40de4f69305b3dbef72a178a5d4df75459ae8",
+      "gitBlobSHA1": "918405d15193304d848f311d4e7754c9cc76154c"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/w32-build-fixes.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/w32-build-fixes.patch.1",
+      "sha256": "d880bdb630eb728f618fc70db84d5d355ba97fcb2cc5978014ee5f4aa628936b",
+      "gitBlobSHA1": "a61c49f3910a4c906817d82e21b33dd11384008e"
+    },
+    {
+      "component": "libassuan",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libassuan/w32-stdc.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libassuan/w32-stdc.patch",
+      "sha256": "90ebe21be44e5abd954f882997de73f26cfcc88a50981a20e297e53fdeb26d66",
+      "gitBlobSHA1": "60c421b6ec68a412331d8d8c4c1eaeee94183822"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/0001-const-up-some-statics.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/0001-const-up-some-statics.patch.1",
+      "sha256": "68bfd0cf7e2328239832293f37bee2b5ff14d3ceccd8ff6d3835362330c1d8c2",
+      "gitBlobSHA1": "7d1a8173ba664e7d0eb68e470d95fec0ce1189c4"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/ExternalPackage_lpsolve.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/ExternalPackage_lpsolve.mk",
+      "sha256": "d88f2b4e97aba6d8a637d5e6be690aae51be19b94a64e25153cdbb58da85abf1",
+      "gitBlobSHA1": "23c2c5abfa03b323ef8751297032c5ac7b25380e"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/ExternalProject_lpsolve.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/ExternalProject_lpsolve.mk",
+      "sha256": "5d4985d1ed1f2946a7e927b3e2b23a3ce49ebc06bac62e7c70c62e945e871627",
+      "gitBlobSHA1": "2bd5cdacbe2aa5d3e23b77a01372d6fe7fa12d31"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/Module_lpsolve.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/Module_lpsolve.mk",
+      "sha256": "c61aab2d07fd6f2f3daf1b8ee0aa6d3ec69745933e562db2969ea02cd84a5555",
+      "gitBlobSHA1": "e0094f609c7daa5cb76acb9c7460fe3e0d34b4f0"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/README",
+      "sha256": "2610bc9988106d6b17ef1ab29187ed11dcab8251fbbb3a3640c814b928a8f9ef",
+      "gitBlobSHA1": "95059b25cd4e205ce34b15fcae2cdf4b64efb1af"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/UnpackedTarball_lpsolve.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/UnpackedTarball_lpsolve.mk",
+      "sha256": "7713359d85516d7b5afe2e9158e99a3e41c733ac3c6b237e330c2dd88891824d",
+      "gitBlobSHA1": "167c1486258756a51c38a2e6c4e578717448f1af"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/ccc.static",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/ccc.static",
+      "sha256": "e4ad87a5263454337840767cc4c9903dbfa2550a14b6b0506d6f634bd1eb75da",
+      "gitBlobSHA1": "c8f0709212020b2feb265e2ae4fb2fa9948ef6ac"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/lp_solve_5.5-windows.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/lp_solve_5.5-windows.patch",
+      "sha256": "00707099cdb103626c020900bccbf70c4f8a779b99fb2d808d063b6ebfbae9ed",
+      "gitBlobSHA1": "16d5261c7c7f305083a996cac9a493223c9348ce"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/lp_solve_5.5.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/lp_solve_5.5.patch",
+      "sha256": "64a5fd660ee2cb8df06f1cfc9d031aa629355c920002853a359d4ad2a58e4b57",
+      "gitBlobSHA1": "2b2588a9f15aefb04d0438272b85f571e5bb0058"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/lpsolve-ubsan.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/lpsolve-ubsan.patch.0",
+      "sha256": "a369b0dbb1e664dd223bfd303f65f2456e3ab3e78b96152b71d5e41190ef42e1",
+      "gitBlobSHA1": "7a5e308c6efd071e6b3d05670ccccdb0db9fa321"
+    },
+    {
+      "component": "lpsolve",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/lpsolve/system-colamd.diff",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/lpsolve/system-colamd.diff",
+      "sha256": "b8e105e95bc037c360eb3fa511385db9140cca5b0f34a76b1fd742f4c63b2388",
+      "gitBlobSHA1": "80eba695f379ab3f1394b9bfa92e72f501a62506"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/ExternalPackage_cairo.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/ExternalPackage_cairo.mk",
+      "sha256": "fc34d6c1791c6a0e09608317b6b3f5e60f3257d44e9d1ff2f8048d14a19bfe02",
+      "gitBlobSHA1": "2110f4cdb556587263bc016d0252a05078b7b138"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/ExternalPackage_pixman.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/ExternalPackage_pixman.mk",
+      "sha256": "7bf7aafe0ba11b4e9cdd9ef9babe67f4c738ee53ef3b8b5a19cb4f9b92069309",
+      "gitBlobSHA1": "75aa4f5c350b33fbd9e4e4a75dce15b04cc68643"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/ExternalProject_cairo.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/ExternalProject_cairo.mk",
+      "sha256": "de5c8d566e159f60889f551930bdd6d7df4790e490530ffcdaf082bd729e8c69",
+      "gitBlobSHA1": "681544068a9b3f9f1e603263c833e9a401f4aac7"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/ExternalProject_pixman.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/ExternalProject_pixman.mk",
+      "sha256": "9acbaeb8d24b12467f0db3a536119f3310294565e6b5121fa2548cb11797c06d",
+      "gitBlobSHA1": "c925994782dbd9e9abf8ed5c307a85f8571a1451"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/Library_cairo.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/Library_cairo.mk",
+      "sha256": "213337f7f21b9cc35101796ad3d97f5f41a89136dd9339de780ca2d4c95f514a",
+      "gitBlobSHA1": "c127b5ad37ec26b9d2a1c773c72b6ee17a65b3c8"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/Module_cairo.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/Module_cairo.mk",
+      "sha256": "fbf60131801666023faf61cccff31a08e0c31cf06622914c0e26b3868b3b1a09",
+      "gitBlobSHA1": "0ca3c6d855d4c5925b832ca1214a290419eb91aa"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/Package_cairo.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/Package_cairo.mk",
+      "sha256": "9c414f1a76dc2c8a9145f61afcd85d31c75b040a118c3888f42ae1d1c832818a",
+      "gitBlobSHA1": "0a68c50363e5e57a02a66869194f8a7fb22e086e"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/Package_pixman.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/Package_pixman.mk",
+      "sha256": "bfff2d7313d755114f8ed0c9cf6396f3b0b646b86adc7ac6e680e07927356b59",
+      "gitBlobSHA1": "87acbc4c40cc88b7b24279ee4158fa228b047620"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/README",
+      "sha256": "e9dd0e59c8ec19e4cc90be90d9a964dfe878a656fe1b5e97b92497ae2bdf9427",
+      "gitBlobSHA1": "3d955dcd09a4ea8202994aa80bac049c2f0f8b73"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/StaticLibrary_pixman.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/StaticLibrary_pixman.mk",
+      "sha256": "b1148f365facc272a96223758f52538addf21e940a977512f5f6601a185bec28",
+      "gitBlobSHA1": "0503cd704fbb04034ba691a886e63c0f5446d1d9"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/UnpackedTarball_cairo.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/UnpackedTarball_cairo.mk",
+      "sha256": "a01450d284a195785ec8dbfb201836f5bd1223af5a1d7b4a2144344fefb44f00",
+      "gitBlobSHA1": "aa80de736d502311805324109e79d7c901ac90ec"
+    },
+    {
+      "component": "cairo",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/cairo/UnpackedTarball_pixman.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/cairo/UnpackedTarball_pixman.mk",
+      "sha256": "46a1d9f6bc1efc7dfd888fa5477022ac159013f05a74ac3e7b776a719e0178b2",
+      "gitBlobSHA1": "d118bb9d39036f1cd689cba1b9c4ccdc94ba6d27"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/ExternalPackage_liblangtag.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/ExternalPackage_liblangtag.mk",
+      "sha256": "d74a3826366629b1a13fda4a762a4df9ba000c6616e2ac00283d6b0b722be762",
+      "gitBlobSHA1": "385d54ddb799959ada3f1946fbae0015ad08b6d2"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/ExternalPackage_liblangtag_data.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/ExternalPackage_liblangtag_data.mk",
+      "sha256": "87ff13eef2cb6d99c05fa4df2762e95d409cfbea04821e313fdb10af6be35391",
+      "gitBlobSHA1": "fee94a1b544ee984a44eb345e3204a7395132d13"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/ExternalProject_liblangtag.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/ExternalProject_liblangtag.mk",
+      "sha256": "b52d9de935c1192cedc3b2ca7e18065edb89501e909c9a3b7fbc00e58ef45a65",
+      "gitBlobSHA1": "27d0a8bcaa35267c5cbbafc9fde02080ee44f5be"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/Module_liblangtag.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/Module_liblangtag.mk",
+      "sha256": "1415c14ea30142dded8617a64bf905761b0b57f2b641768de9a763498b362855",
+      "gitBlobSHA1": "dbb7dd5f18e9590e5de97bf1fc5035e193168c8b"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/README",
+      "sha256": "bd10911be0e21bf2d169cf2e359eda00ad9b5ac148979236cfd5078bf60eb51a",
+      "gitBlobSHA1": "254e40a22ccbc195aaf56cd93948b0ed1ec75a2b"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/UnpackedTarball_liblangtag.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/UnpackedTarball_liblangtag.mk",
+      "sha256": "8f8e614815ee80019ea7fe4298f0048c4997e24eb6e9a7a8cdee197170667106",
+      "gitBlobSHA1": "a6a1e97ab6f72a57d6f8c89a30aec7914d33e9c7"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/clang-cl.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/clang-cl.patch.0",
+      "sha256": "90547002fccce6c5f0f1dd0b8d3fe7f2448361bc5fd20621c87a0ecfe02526e7",
+      "gitBlobSHA1": "94348b65fb3a907db12f27a0a5ced063d0ff9ad7"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/langtag-libtool-rpath.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/langtag-libtool-rpath.patch.0",
+      "sha256": "09c5a1e0c921c951dcf42b41fcb3f0924cb5aaaa58621f3febc2e6e2555a7253",
+      "gitBlobSHA1": "368832b8bb93c735d0e35bd46de3de95a825a84e"
+    },
+    {
+      "component": "liblangtag",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/liblangtag/liblangtag-bundled-soname.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/liblangtag/liblangtag-bundled-soname.patch.0",
+      "sha256": "6e5d46ab447fd39c9b218a3924063df95a390d725285f65f4e49545f23bcf6da",
+      "gitBlobSHA1": "036498dd9567ca3fa83758a3d4b43b44c3cff442"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/ExternalPackage_libmwaw.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/ExternalPackage_libmwaw.mk",
+      "sha256": "2d55d498e926a69d9455c199141ca015e05ae5cbbd2ab8183205c275a04fbda0",
+      "gitBlobSHA1": "6f3f27cccfa86659fe51c3dfc3cf43601d2dc379"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/ExternalProject_libmwaw.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/ExternalProject_libmwaw.mk",
+      "sha256": "c841f410249222f20a5e1aedc4bc9ecbf9ab5cca1040647ccd65bd8c0bce29fe",
+      "gitBlobSHA1": "59075c7b92782f469148a097930eb9bbb9e2a38e"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/Library_mwaw.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/Library_mwaw.mk",
+      "sha256": "84f97919bf5c5c3120626772fa689da9340c2b7be488c47b4e813bcbd4132883",
+      "gitBlobSHA1": "2b7c2286fa511eecb761d5eac30d71e97e33d248"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/Module_libmwaw.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/Module_libmwaw.mk",
+      "sha256": "bb5fa37a44bf8c6fbd801b87d99f2d1b9715ec7a24c19c0039b89494d64c428c",
+      "gitBlobSHA1": "272ec01b461a9e7f0922b321ee661d10738a7dd9"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/README",
+      "sha256": "5ad1357d6a31112035f73829224a74dd804d8408c3d841a242eca9a0941d6905",
+      "gitBlobSHA1": "c10d26bb5b7907a5e83b09686c9d3f64eaf97a9c"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/UnpackedTarball_libmwaw.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/UnpackedTarball_libmwaw.mk",
+      "sha256": "67b52769d2a43599b67752e916d5fcd9176d0fdca29b18aaef917ccfb81f9fe7",
+      "gitBlobSHA1": "935cbc1eb1c3cd537c17eecde9fdab8bf19617fa"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/libmwaw-bundled-soname.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/libmwaw-bundled-soname.patch.0",
+      "sha256": "d7d85506d123eb64acb4e658fb5a61767d5ad78b71994fa0a7850804fa4c2843",
+      "gitBlobSHA1": "31f5c75cba4482003c49974daadd59ef1e1db9e5"
+    },
+    {
+      "component": "libmwaw",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libmwaw/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libmwaw/rpath.patch",
+      "sha256": "b4453ed227905aec35f5502b820a127066b2ae13ed26680eada0f9527117da84",
+      "gitBlobSHA1": "a73d8ae223f967a412e93626b444584b1e742923"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/ExternalPackage_librevenge.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/ExternalPackage_librevenge.mk",
+      "sha256": "8ab35eaf1c330968e42987e430bdd376cc617416c02f872b2a7d18023367f0b9",
+      "gitBlobSHA1": "4ed404c63e27c48b72ea4ca953ebada1af76b6c5"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/ExternalProject_librevenge.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/ExternalProject_librevenge.mk",
+      "sha256": "07039052f7cdba0b2f6dd6e6f4f604de55db8ead1f1b486174a935164cd62367",
+      "gitBlobSHA1": "98a2236bb37651a21344e4f049dc0ed5bcd86da6"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/Library_revenge.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/Library_revenge.mk",
+      "sha256": "b6def29a133cf4ea19a4b42a9f5dde9eb9166745008542ba22543b69f0145a9f",
+      "gitBlobSHA1": "480fff04cd15bef490af7bfe5bcd16266def4010"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/Module_librevenge.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/Module_librevenge.mk",
+      "sha256": "1c2158eb665f9d84b85f005cabb0c40e0eb75e87aa754b757d859c568324ecd0",
+      "gitBlobSHA1": "cd11805f0b213a0f9d56ee0c5a6c8af28dc48dfe"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/README",
+      "sha256": "ae34575ee158343eca5490b33bd1025396f6884e266acb1fd98a50e1f5fab545",
+      "gitBlobSHA1": "23007ff99e0817147357887fb056a75e89176f09"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/UnpackedTarball_librevenge.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/UnpackedTarball_librevenge.mk",
+      "sha256": "31a13b0145328f86591d96e1cd66f4c240028b691adea82066b4b53692fa454c",
+      "gitBlobSHA1": "74f28751c60912429d1480d7305b866b144270af"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/librevenge-bundled-soname.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/librevenge-bundled-soname.patch.0",
+      "sha256": "0241ac930ebda70d845a89a4097de27d3821000e71df2f2d376f31e564750aa0",
+      "gitBlobSHA1": "d98630f0c6378e5cd4408229bccdf9a6de376832"
+    },
+    {
+      "component": "librevenge",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/librevenge/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/librevenge/rpath.patch",
+      "sha256": "d1493f120d14afcd6957491c01c97e1b381892ff77a523ac415bd2bdf2d10914",
+      "gitBlobSHA1": "c7d21008090d4caace6aaf0b1e52f2f4733d100c"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/0001-const-up-tibetanMap1-to-move-out-of-data-section.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/0001-const-up-tibetanMap1-to-move-out-of-data-section.patch.1",
+      "sha256": "9617c7914190b0b4509c88563d0d12614c25ed3244d02e6fc108302594b2e282",
+      "gitBlobSHA1": "b72f6b48da81c51433b7c0a0586db6b64d08c8da"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/0001-const-up-various-arrays.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/0001-const-up-various-arrays.patch.1",
+      "sha256": "28d1c620a4a198bddc54cb630b54e52f919457eeae57c05a27c58384bfec8960",
+      "gitBlobSHA1": "f07a6b3729afae56ce0b532f8ecdb1242cd157d9"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/ExternalPackage_libwpd.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/ExternalPackage_libwpd.mk",
+      "sha256": "ccb43be5fffbde5d3c6ff1a15cc6188a080176c1e9d39caf0c18b579ba084325",
+      "gitBlobSHA1": "cc1ebb4da219421d9c1ab3e19836475d298ea077"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/ExternalProject_libwpd.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/ExternalProject_libwpd.mk",
+      "sha256": "9bd80ed608811ae036de1283de48ecde1c037d5ab89461ee060b6efaf57b24b8",
+      "gitBlobSHA1": "3317aecd76d2ff2b5cee60c7bd6cc818c6616523"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/Library_wpd.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/Library_wpd.mk",
+      "sha256": "50df3fbdb2d50d334d3e37d27c187a180882575a42636adc1c61a362289489e1",
+      "gitBlobSHA1": "b0437ed397518534f005ff09d8edd5cc99abcdd1"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/Module_libwpd.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/Module_libwpd.mk",
+      "sha256": "5a235fb2cbdafa12d30c6ee94ea92fcd22d556ae77f2d62e7f842e989894d675",
+      "gitBlobSHA1": "db916a58245f0431aca6bb722d624744795ef4b7"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/README",
+      "sha256": "c44636262ae749bd037aec1821c27d13839c8fd89e71e6fcba191a0b57f0e0b3",
+      "gitBlobSHA1": "2cc9c8a18b8b43c8df6bafb7629abc241518aca0"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/UnpackedTarball_libwpd.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/UnpackedTarball_libwpd.mk",
+      "sha256": "264f85874b9b111b2eea3cfd15753805658ff3f7b2cb986c558c32f5d7ac55ad",
+      "gitBlobSHA1": "4f5b8842be25b0e362d9bfc399c10626dee80bc1"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/include.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/include.patch",
+      "sha256": "6aaf775b160e05bcb6ff9d0f6c1dc05ccb337d49efe76ec4078b8acfc207fa42",
+      "gitBlobSHA1": "57f52b4b0aa519e1eb4b7bdfe9cb4b7da9560903"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/libwpd-bundled-soname.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/libwpd-bundled-soname.patch.0",
+      "sha256": "22589eecd0e6128f03dc3650baee2bd4dddb93cadcc52da9a9192dcdc353cdf0",
+      "gitBlobSHA1": "ad7cc3fb446f946602dbc9d9daa28a83cc2c9211"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/libwpd-vs2013.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/libwpd-vs2013.patch.1",
+      "sha256": "322320f3c1b36f1097f37b2efac3c3fe0f9184bb160f73fc05797cb8d33bd091",
+      "gitBlobSHA1": "224af4732157321433d49ad23718071009142e3e"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/rpath.patch",
+      "sha256": "9a6fe23afbc0453ce920335ed680320c6d6436a887a2a486c3cdd688311687fb",
+      "gitBlobSHA1": "fb3deaa81083196a1ce0bc9fce7ba503343f1131"
+    },
+    {
+      "component": "libwpd",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpd/tdf153034_3_WrongGreekCharactersWP5Import.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpd/tdf153034_3_WrongGreekCharactersWP5Import.patch",
+      "sha256": "067183f7360b236c4aa432223b35424ada0609d556defea058d68dfab5642420",
+      "gitBlobSHA1": "7227a70004acb61102f80b5c4762678045f00f72"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/0001-const-up-mimeTypesMap.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/0001-const-up-mimeTypesMap.patch.1",
+      "sha256": "19fad16a47b30d8d1e21719e0c2b02932e85f93201de8812eb4d3d2037971843",
+      "gitBlobSHA1": "76ad727550742dde8779d9c44873e93e10440ae8"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/ExternalPackage_libwpg.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/ExternalPackage_libwpg.mk",
+      "sha256": "e71a9703f866c18e77393a8dd5e4699b9715caeb784e11ea31a9127fce4488f6",
+      "gitBlobSHA1": "c3eb05c7a33ee6f133821d48286c262096bcbb27"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/ExternalProject_libwpg.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/ExternalProject_libwpg.mk",
+      "sha256": "48043ca96ddd393ce1f50843d2c2e382b4cfe220b94c3cb6f8854691fc7d25b1",
+      "gitBlobSHA1": "dc6bdf7d6899f2469592426a1f40cc70eb7cfa1f"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/Library_wpg.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/Library_wpg.mk",
+      "sha256": "ee6912be4bafd7d38cbd8dbdfa02b12a8bf3460edfde70a6073dca363a2ec0a4",
+      "gitBlobSHA1": "7255db70d405796cc183b929cf184c84e8e8aa61"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/Module_libwpg.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/Module_libwpg.mk",
+      "sha256": "3dcb91890b5aff5077d3a126758b4fa5df30e06f520c391f99ebdd9a14ef177b",
+      "gitBlobSHA1": "668ae8404967a528b7a24501082a0b42d9fb4992"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/README",
+      "sha256": "734a91f4b1de4979514130605cbba8d3fab6cfdfad80531e07ca7cc906f2b38d",
+      "gitBlobSHA1": "19a154dd4d449200b6be8f7df68fdb95b9403dfb"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/UnpackedTarball_libwpg.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/UnpackedTarball_libwpg.mk",
+      "sha256": "186e533e154a0c7dfd106519d8fe7155c0a56067d07cdb11ec5b5ec474737712",
+      "gitBlobSHA1": "06eb8c4dbca823f312273818040b12e7421d8b09"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/libwpg-bundled-soname.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/libwpg-bundled-soname.patch.0",
+      "sha256": "b04c5ec409cee6d4c7eedf53ee51861a125215047657c0693d56af120821e28d",
+      "gitBlobSHA1": "e0bfc5980d5ceb8a7577d7be5dfce0743fa63269"
+    },
+    {
+      "component": "libwpg",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwpg/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwpg/rpath.patch",
+      "sha256": "767e75eaaf26439a8685f8ef97083a09aec22d53c15279714329d28233ae65ef",
+      "gitBlobSHA1": "5a8f56105509ee577c9a13ef7cdbcb98855455c8"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/ExternalPackage_coinmp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/ExternalPackage_coinmp.mk",
+      "sha256": "2643d587f87c7780123097ccc7018a6936560b943a422c59ddd908a69686df02",
+      "gitBlobSHA1": "91c3d4531748870438d5bcb54e3d25ed4789f493"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/ExternalProject_coinmp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/ExternalProject_coinmp.mk",
+      "sha256": "a2fb998dde94b208af645a999ca1378d25364c4b3d4b540758549f3fc7d2027f",
+      "gitBlobSHA1": "559d9eb1b11b55b7082d57e717cd2b660bba48dd"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/Module_coinmp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/Module_coinmp.mk",
+      "sha256": "5866adf8c6ddf0ef588fb7c7a3ec1728b3f4a8cfbf70519183d49ad53cb9e87d",
+      "gitBlobSHA1": "30d9d758548c660975c36fc7a1c6248caa767f31"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/README",
+      "sha256": "ae81d4b266d7455e59408ad68fbca1c4e43a0b850e694a754daa8484f8451381",
+      "gitBlobSHA1": "0e155d10fa5272d2899e59d0223fd01fed3e1185"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/UnpackedTarball_coinmp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/UnpackedTarball_coinmp.mk",
+      "sha256": "bbfabd2e1554362280f968093a9d32458b308bbd7ffb1dbcf1c94639466de955",
+      "gitBlobSHA1": "2c4ffd00427509c4bc770f45300a849722c702ab"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/Wnon-c-typedef-for-linkage.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/Wnon-c-typedef-for-linkage.patch",
+      "sha256": "ce7f1379aadec4cbfad0b44e60260b405457ed608b206275b8c2d1c63da762f4",
+      "gitBlobSHA1": "ace749d2347be3912382a4b9ef9be0b316b7da9c"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/bind2nd.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/bind2nd.patch.1",
+      "sha256": "4059ea23573d5f6583792d70b842efe714f46e08a38a0df50355dc26804bd1eb",
+      "gitBlobSHA1": "6ef10a03e1027b8de6bcd09fd78e6f13f6f10787"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/clang-with-path.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/clang-with-path.patch",
+      "sha256": "fd2acd8de7a9dacb7107ce184660e0d65bcae0d1deecea75dcf0e6d5021e29ea",
+      "gitBlobSHA1": "c66bcb30b01e7327b6abff1ec4eba636f083aade"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/coinmp-msvc-disable-sse2.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/coinmp-msvc-disable-sse2.patch.1",
+      "sha256": "ef5edaafe8339c13041bfaebe3086a44204f9b7d1d6dffcb02579c280a9ecb3e",
+      "gitBlobSHA1": "0f518d6e3512b203ddfa65654ca54c5645989417"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/configure-exit.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/configure-exit.patch",
+      "sha256": "574d92465c7735ec69e61af3ee7191595efd5018a146f1961c008c13ff983450",
+      "gitBlobSHA1": "0a81b8073fd2a7896c73169731fc7df88d64a272"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/const.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/const.patch.1",
+      "sha256": "c7525c6716e9eb8e3eb9e342d78685d89689a554ba9ed251e010236a6aeb4ee9",
+      "gitBlobSHA1": "d7e462f0a9874d742ec354d4bddb81c30ecc6be3"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/const2.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/const2.patch.1",
+      "sha256": "afa50210421268fc3289ef773c408ce9cb8ac175a95e4fd66b7cb90fbdee4394",
+      "gitBlobSHA1": "de810191008e23b76f5143d1da5060df0df3b708"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/const3.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/const3.patch.1",
+      "sha256": "3670cb1f34da90cdba3a824d950a75566f1b1ce8fbc0bfd3fac82e85777177a8",
+      "gitBlobSHA1": "c75e893b7ffbd4267c71df6e780b123fabb7654f"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/libtool.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/libtool.patch",
+      "sha256": "74b5c6114830423613bf6ccc9d2a86a1c598f27cf7e00d661e52db34ce41ce11",
+      "gitBlobSHA1": "ca1716f5fdb22f84d4bfe66112c79653f0b43097"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/no-binaries.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/no-binaries.patch.1",
+      "sha256": "d14270e3ad6af3f191fe4075e0ee7867d5482d2c83c709c2fb05c07e6babe208",
+      "gitBlobSHA1": "789e8a7f7e6007a0bc65c0b035fbf6231cf6a1ab"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/odr.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/odr.patch",
+      "sha256": "24e633ad3192ed6173a779a6a5ed433552ea8440f38c96371cbdeb58a0a5a3c3",
+      "gitBlobSHA1": "6e91c86415d24f62e79e0a581427d675c20e54c0"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/pedantic-errors.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/pedantic-errors.patch",
+      "sha256": "4b8307bbcb906ff8286f6a93ddf8ce13e3754d7f96614b6f866890d192d0fac6",
+      "gitBlobSHA1": "2cf86b7e0ef4b3f364e4f6b8f0de74611b05178f"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/register.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/register.patch",
+      "sha256": "b7c4a6460e4ffb78f8e029c821be23cf7bfc8cb160c49de0271f7a30f63a4d19",
+      "gitBlobSHA1": "050b47f97fa60350e9e2f3c31e70a7b178d2d3e1"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/rpath.patch",
+      "sha256": "a8a2eb2aa1f77eb540dbbfc31053541fc13e9b1356bb33ee398c3c532c374411",
+      "gitBlobSHA1": "50a2acde2b3ad53aec0376781c9322ef93b034d4"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/ubsan.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/ubsan.patch.0",
+      "sha256": "3b3655f64873a71bf9dc4aadc12a470f7a88a1091c12a7d0536ea9689618f5d8",
+      "gitBlobSHA1": "116dbca61a1847110ab948b4b6e8466159cd6c20"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/werror-undef.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/werror-undef.patch.0",
+      "sha256": "0d390fdd164d24b0e8e8ad8784a78ad0f7d5352cbf9946099ac92eda3a92c3a6",
+      "gitBlobSHA1": "a9b80f280af8af670b63ea2aa3f28f69baf20c8b"
+    },
+    {
+      "component": "coinmp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/coinmp/windows.build.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/coinmp/windows.build.patch.1",
+      "sha256": "e7a65f4947feffdb3fb1c5625a1ddb2188c3a9b4f8aa48c2021f108733fee7a5",
+      "gitBlobSHA1": "a412729e1c80548c0a5f9fcbee886ed1f7fea692"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/0001-const-up-some-things.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/0001-const-up-some-things.patch.1",
+      "sha256": "d37957e9bcd538266cf81a9d247cf4e74beacccbbf2f6b28403a131e328f3e0f",
+      "gitBlobSHA1": "6b64bd92b83a69b8b6d17589e2cb7ad43c063a66"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/ExternalPackage_libwps.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/ExternalPackage_libwps.mk",
+      "sha256": "fa4235d3dbef9c651c5da03c13d3829c3d3c2ec7efdc956d40edef0236de3cc0",
+      "gitBlobSHA1": "daa17c117d4efd2b043c7f5f9c8de6ad42011fa9"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/ExternalProject_libwps.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/ExternalProject_libwps.mk",
+      "sha256": "99901bc961eeee543410f12f3577f30c142d12125a79fda0c2b3597f4570c78d",
+      "gitBlobSHA1": "5ff5997f6021873471e2d2e1a64044b2221dac12"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/Library_wps.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/Library_wps.mk",
+      "sha256": "fe84f5232be1aeac3513fc20b7d335e47ea3b5bd5ece922d197ae95520cb1fdf",
+      "gitBlobSHA1": "78ade9143b9d44e0da1932cee4eebf25c212002c"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/Makefile",
+      "sha256": "a3e8aecf2cefd58c22e72188a48e9ac97e219571683bec0fce42604f96e54ab8",
+      "gitBlobSHA1": "e4968cf85fb663eb9578c924389af26a07074351"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/Module_libwps.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/Module_libwps.mk",
+      "sha256": "4944a310fdad1f58ca4a45fce8af6ee695bc6645fa10704396fc9d7f39e0e72f",
+      "gitBlobSHA1": "2b52c4acb4bd3b1aa3f8e45930549cc44ede99b7"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/README",
+      "sha256": "5a3244ea1fac25d404341306e4a87171d83b3182e469a8506686a0a9485aa8c1",
+      "gitBlobSHA1": "1354aaa24db225c82a74435ee0f7a31bc03658f4"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/UnpackedTarball_libwps.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/UnpackedTarball_libwps.mk",
+      "sha256": "7a0cf3a3994bd60591f4f53a2490b9461d2b1cb1a6a06e3f8177f2f0a79c65e1",
+      "gitBlobSHA1": "522e4b11a1f573a84e1de488cae7efc4c874e462"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/enumarith.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/enumarith.patch",
+      "sha256": "df79211ff1b3b354f5952594635518095670d7260f3326a70616013693398aea",
+      "gitBlobSHA1": "9cee0cec6daebd0de1d7feb945832f6bfbd0b5d4"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/libtool.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/libtool.patch.0",
+      "sha256": "69580b7671074caca0fa1cc9baa1b35121f9ef6703aebaf7bd5664f1643336e4",
+      "gitBlobSHA1": "bccd0ebdbc060b27183cf9475ea14c3e90867400"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/libwps-bundled-soname.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/libwps-bundled-soname.patch.0",
+      "sha256": "36f3058e6e60b5e85ed0f1cfc937d9580a9a29186fd27cf1a388adbab96a0f92",
+      "gitBlobSHA1": "013ba7a88b9e92032d234d69620510382db95846"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/rpath.patch.0",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/rpath.patch.0",
+      "sha256": "20fe1c9b4ccb08a65711ee6fcd3bb5110d622a629cd9d4cde11ec2c0ab5ea3ad",
+      "gitBlobSHA1": "600cc3d34c2c68087253ceb0be93432a22f63435"
+    },
+    {
+      "component": "libwps",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libwps/tdf148749.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libwps/tdf148749.patch.1",
+      "sha256": "9d3a3c64ced4703f9d94f0f1170d3885dbe8017cc37994e2fe7bea5989e37bf8",
+      "gitBlobSHA1": "823605c7eaae37e6c6bab9d9ea5a7a1c65d78edd"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/0001-const-up-gpgme.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/0001-const-up-gpgme.patch.1",
+      "sha256": "ebfa29646d0acc17a536430f172afdb16977c70d9f1ba3d54b01d71446ee6a62",
+      "gitBlobSHA1": "c1aa4a084231c2a48aca5f052e9b2121b42fe572"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/ExternalPackage_gpgmepp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/ExternalPackage_gpgmepp.mk",
+      "sha256": "1316e0b95b29c51b34c49e382c32bccd8a9657feae2ba2366ad305c273e48d4b",
+      "gitBlobSHA1": "f2ce6c3a090e910309f5edbcbfb28d34c2b354de"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/ExternalProject_gpgmepp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/ExternalProject_gpgmepp.mk",
+      "sha256": "8d77899112d1580b7ce02c28aa4c32ede6b208ad8d392ebcb074176b99672fb3",
+      "gitBlobSHA1": "d2733bf21b49f2d29ca892ed42b957e604c1cea4"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/Library_gpgmepp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/Library_gpgmepp.mk",
+      "sha256": "ae1d32c895bcaaf81675b012c3a798951e3e9b8e2e49ee4add74b3df17643985",
+      "gitBlobSHA1": "e9a677c2d0eb6dcbc02beb99b213d0af8c5f4f4e"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/Makefile",
+      "sha256": "bf5188948b56ad718a1ab1231bb777403e1152860c38565a06835893d24fea13",
+      "gitBlobSHA1": "569ad8a0ba7a7d905032ae023e94e70d4410df3e"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/Module_gpgmepp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/Module_gpgmepp.mk",
+      "sha256": "807c5f1979f7b6f378c7caa3e36c87fe5f323ab1673bb13c86f27fdbecd06b6f",
+      "gitBlobSHA1": "5763ccedb89ab75ff903281fccbc145b988ac10e"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/README",
+      "sha256": "a342bc0deed8afcb560176a90aebee1f064a19652bb01e380ee127b5c77f73c5",
+      "gitBlobSHA1": "149ca3b5edd6155f0e400301d8a5d21c84723c40"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/UnpackedTarball_gpgmepp.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/UnpackedTarball_gpgmepp.mk",
+      "sha256": "8e33b1e52234d779eb733a80ae8d5ab05cdeeade91f343e0a3fb7e9810fd7945",
+      "gitBlobSHA1": "e1d232f3a992d5700a10de9bca0c9ba1f0c2ca2b"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/Wincompatible-function-pointer-types.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/Wincompatible-function-pointer-types.patch",
+      "sha256": "191871c217193b13ee0fbca0e2dbca2c0a154309fff38f5f0c1df85ad260374f",
+      "gitBlobSHA1": "cd4f1117fd06feef08d633065efaf5aafb355e7c"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/asan.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/asan.patch",
+      "sha256": "52bae228888c509adc88fddf7c70b7db36953a64bfc3a030427d3dcbe55cdb29",
+      "gitBlobSHA1": "e0b1c85fe51b294d1bf558ab055d22fe7e6f2515"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/c++20.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/c++20.patch",
+      "sha256": "a39d026108a7a07b73d8f21680f69fc4c808cd03d223a7f21831ee522bc0fcdb",
+      "gitBlobSHA1": "3141dca1ea704cc8804c3cdb9296d46c92878fcc"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/clang-cl.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/clang-cl.patch",
+      "sha256": "cba1752aabc4e84e1047efdfefc11063ca9331fb3bd3bf22ec091b6b53372ea0",
+      "gitBlobSHA1": "3f63d0bc6bc8918c807622ea63e286df67fad7dd"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/configure.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/configure.patch",
+      "sha256": "c8cfae677ec5c1f584aef0a7cabf7efec015eba23f74abc44fdbcc039bf30deb",
+      "gitBlobSHA1": "ad3f97e632fb6ff1a3c4d92b2fcc4476209c4ade"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/find-libgpg-error-libassuan.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/find-libgpg-error-libassuan.patch",
+      "sha256": "b840a36f848e177f93188d8fb44ac62d861f2c1c9f3052ef15b2db279e9a9a7d",
+      "gitBlobSHA1": "038a9b0b06913a435e5c2913d56620851b936f16"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/fix-autoconf-macros.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/fix-autoconf-macros.patch",
+      "sha256": "3b9c25cbf5376be9683f1c0e2e040f58b539a78b5556959e47b437f09b744972",
+      "gitBlobSHA1": "265703b0067119810b5fd7fc785021dbb64004f1"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/macos-macports-path.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/macos-macports-path.patch",
+      "sha256": "7742d8c11d191034ce0bd3bee5d5f35bcccaf17ab922e7cdd7d16e9d3b8a6b05",
+      "gitBlobSHA1": "de7e8f68e69f9dbf24c683692a3b4ef39ec34b6a"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/macos-tdf152524.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/macos-tdf152524.patch",
+      "sha256": "84495cf73425496a0bad20d2bdc25991108add2d2c751a421b92d3fb5d94c2a9",
+      "gitBlobSHA1": "c1cdd047dba8778311d616fccc5f9ec3416d740b"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/rpath.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/rpath.patch",
+      "sha256": "e031659162dccfefb5d186257c92624dc92deecfb45b28fd082aae14d71b4a7e",
+      "gitBlobSHA1": "6e6c46105b94ce29a936b5000e96d3d18775c84d"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/strcasecmp.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/strcasecmp.patch",
+      "sha256": "38b0c00f517f0995e679c4a6651bfd420ba55e2be9a94b5b28e643701b4cef63",
+      "gitBlobSHA1": "4dc382a07b03c103f7dd96b92b832d35efbaf6ae"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/ubsan.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/ubsan.patch",
+      "sha256": "14dc7a894a4be3900ded1480650d9e0aade8c6626067a7ee0041a25c30b172d4",
+      "gitBlobSHA1": "c23ab80ad0070143c064304ab2d74bd88ccb715b"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-add-initializer.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-add-initializer.patch.1",
+      "sha256": "35d51dc756f8ac446351b517ca34f2e3df9e0c32198c8b89c6b973396712fbfb",
+      "gitBlobSHA1": "b33f0d42a95f4013e8f121cc285b592de29ab97b"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-build-fixes-2.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-build-fixes-2.patch",
+      "sha256": "42a3563b8cdee300d87800946c7c0791c283111f9f491c5bf404f6babe7f4638",
+      "gitBlobSHA1": "09c23c0649d5fd16e7303902819cecd141a2fd19"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-build-fixes.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-build-fixes.patch.1",
+      "sha256": "9346636083284b3639e2d8dcb05e7d518136d636030c66edf364f9629dd4735c",
+      "gitBlobSHA1": "9f634c18290107ce7f54f76b0456b12b7c1233b4"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-disable-docs.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-disable-docs.patch.1",
+      "sha256": "f3adc92d42870f97adb7fcf4d5d8905ec2ce3b3ff17862cceeda0c16eccd2fbe",
+      "gitBlobSHA1": "1803ffa03cb51a7afd8e7972136285139ad5b55b"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-fix-libtool.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-fix-libtool.patch.1",
+      "sha256": "516f84965d981793db9e7a214811d6823ff26c1aaf93813f8c4ad9bf2f794fb2",
+      "gitBlobSHA1": "40893908b7f6fd9609a7e5eb878b9f9ec3c1a500"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-fix-win32-macro.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-fix-win32-macro.patch.1",
+      "sha256": "5a27fd7b59124053bd996f8339955e6cba29ad5dbf58554c490062e82ff45610",
+      "gitBlobSHA1": "7041385f7962ac8dc2b381f8896ba7c4264093ec"
+    },
+    {
+      "component": "gpgmepp",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/gpgmepp/w32-include.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/gpgmepp/w32-include.patch",
+      "sha256": "b37fecbb962c2a289e96e92cfc1397cea92ee19b0f511f0787453173bb1deb3c",
+      "gitBlobSHA1": "30fdba5f8f2689235ddb8ea7216da32e16abb74d"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/0001-const-up-handle_metacmd.cmds-array.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/0001-const-up-handle_metacmd.cmds-array.patch.1",
+      "sha256": "751867a103abad2990b2ef4661339222b4fb12b991b960fc22d1b613daf39559",
+      "gitBlobSHA1": "68481d3862ab461ceb9649d3bddf3807560a5e0f"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/ExternalPackage_libgpg-error.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/ExternalPackage_libgpg-error.mk",
+      "sha256": "4b1184c1094b73657cf7e88b8597b5d906e2bd1d924f15ac00d8232500221262",
+      "gitBlobSHA1": "b8ae19fce5cefde668b295f7cf0d245d13c76cde"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/ExternalProject_libgpg-error.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/ExternalProject_libgpg-error.mk",
+      "sha256": "6cfe126d5f80350c1e6b048ba4858a2f8328f1d31dc5cd32b2e09737c71d5826",
+      "gitBlobSHA1": "88b9b2be504ad1f7cfca2997c996d189b80482cf"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/Makefile",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/Makefile",
+      "sha256": "bf5188948b56ad718a1ab1231bb777403e1152860c38565a06835893d24fea13",
+      "gitBlobSHA1": "569ad8a0ba7a7d905032ae023e94e70d4410df3e"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/Module_libgpg-error.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/Module_libgpg-error.mk",
+      "sha256": "b116df15671e3fe5079b2dd4615074c402fc6a64a29522966806cf1a1ef00ce3",
+      "gitBlobSHA1": "0079dcba9880cad0532daa13c019b727cf40736e"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/README",
+      "sha256": "5740447b3641b62117aefe49eebf9383d5bd6ef8c99fb0e1553e6b143940b3ca",
+      "gitBlobSHA1": "84288267a18ad391466672eebcd67297b93e11cc"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/UnpackedTarball_libgpg-error.mk",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/UnpackedTarball_libgpg-error.mk",
+      "sha256": "1ba209836e15ab57a8645bf501a09f6303d8aaf2943523a03bcfea15273c5132",
+      "gitBlobSHA1": "3345819e24c40876ef73bbec00b921f0d50d77b4"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/clang-cl.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/clang-cl.patch",
+      "sha256": "e600ed69516e881d9d723e0ed871fc691da7792c58769364ba8dbbc40fc1d0d6",
+      "gitBlobSHA1": "3a635c5d8990d59156fcee4c6a01ad2a0c568da7"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/libgpgerror-bundled-soname.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/libgpgerror-bundled-soname.patch.1",
+      "sha256": "809887f3e949b0c3e51ce81241676ff8a91e6aa924d282721f3497e2f5869559",
+      "gitBlobSHA1": "6b5c47b4cf1def176a3f8fb35e9c2ffaef597deb"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/undeclared-environ-macOS.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/undeclared-environ-macOS.patch",
+      "sha256": "258705a8c9b333987b84b538ba63fc395de67677ccbed44e18616bc0eb031a71",
+      "gitBlobSHA1": "51cf054cb8d5f4b0f8702188973298cbd32cada9"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/w32-build-fixes-2.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/w32-build-fixes-2.patch.1",
+      "sha256": "41bb7b0c166ff3953cb3e8c30e228629d8edb97ebacebcff163d538276a142a3",
+      "gitBlobSHA1": "5f2a7b92584219db133d794be5ca2cb22b758476"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/w32-build-fixes-4.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/w32-build-fixes-4.patch",
+      "sha256": "da6e68a5c2067e200ca59f257c445930614ed27a1e25a130e7a6c8a1c2513d13",
+      "gitBlobSHA1": "1d4e052a560f936c7f30b6e155580d41250830b3"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/w32-build-fixes-5.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/w32-build-fixes-5.patch",
+      "sha256": "e9054f5e51dad2bcd334d6fb52e40c046106d184a1dd3be44c63286ad5d0d9e2",
+      "gitBlobSHA1": "ba917c3bf89907a749b50c9ebbec922ffde80b29"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/w32-build-fixes-6.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/w32-build-fixes-6.patch",
+      "sha256": "f5f90ad9cfe54921ec45e70c608ce40dee98a7703dafdee1fa7cab2f30b17c01",
+      "gitBlobSHA1": "673aa8c3f3fe5d25c6abc6b3663244532bab9e71"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/w32-build-fixes.patch",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/w32-build-fixes.patch",
+      "sha256": "775e0b933d81c5540cdf46c92567f4e028cb70f996aaa12a4e69a7a8f7a3e833",
+      "gitBlobSHA1": "1de57e4240890275755125d4c6aa52a20ecb82c6"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "LibreOffice fixed-commit build recipe or patch",
+      "path": "core-build/external/libgpg-error/w32-disable-dllinit.patch.1",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/external/libgpg-error/w32-disable-dllinit.patch.1",
+      "sha256": "ac122f39996c232a54b09a6d912841a8987e1f5c3d3f83a66ef52bbe5c60cdd1",
+      "gitBlobSHA1": "96abb3bbdc52260c68b2f48e7bef7e66537ad0ba"
+    },
+    {
+      "component": "libgpg-error",
+      "role": "exact pinned external source archive",
+      "path": "archives/libgpg-error-1.61.tar.bz2",
+      "url": "https://dev-www.libreoffice.org/src/libgpg-error-1.61.tar.bz2",
+      "sha256": "7a85413f2bc354f4f8aa832b718af122e48965e9e0eb9012ee659c13c6385c93"
+    },
+    {
+      "component": "OpenSymbol",
+      "role": "preferred editable source matching actual 102.12 binary; historical commit download.lst pins the same f543e6e2 font SHA",
+      "path": "font-source/OpenSymbol-102.12.sfd",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/52f1115571469f210192cbce6b52e8b7d1d85dc0/extras/source/truetype/symbol/OpenSymbol.sfd",
+      "sha256": "aca99a3aacca8e0c6e204a3b332bc3c766c880e81c3322cf511cc8553392f1e0"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "original fixed source index or license text",
+      "path": "source-information/official-download.lst",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/download.lst",
+      "sha256": "2e0090f1bf175812f4ea420be0ac7990aec6fa996d254419c4bc3a6e6ba5651e"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "original fixed source index or license text",
+      "path": "source-information/COPYING.GPL3",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "original fixed source index or license text",
+      "path": "source-information/COPYING.LGPL3",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/COPYING.LGPL",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "original fixed source index or license text",
+      "path": "source-information/opensymbol-10212-download.lst",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/52f1115571469f210192cbce6b52e8b7d1d85dc0/download.lst",
+      "sha256": "1666c50ee267369ab7387fbf9e7951548cdae2f4faf76ed832cdeb3a0226b396"
+    },
+    {
+      "component": "libetonyek",
+      "dependencyKey": "ETONYEK",
+      "role": "exact pinned source for installed additional MPL format library",
+      "path": "archives/libetonyek-0.1.13.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libetonyek-0.1.13.tar.xz",
+      "sha256": "032b71cb597edd92a0b270b916188281bc35be55296b263f6817b29adbcb1709"
+    },
+    {
+      "component": "libodfgen",
+      "dependencyKey": "ODFGEN",
+      "role": "exact pinned source for installed additional MPL format library",
+      "path": "archives/libodfgen-0.1.8.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libodfgen-0.1.8.tar.xz",
+      "sha256": "55200027fd46623b9bdddd38d275e7452d1b0ff8aeddcad6f9ae6dc25f610625"
+    },
+    {
+      "component": "liborcus",
+      "dependencyKey": "ORCUS",
+      "role": "exact pinned source for installed additional MPL format library",
+      "path": "archives/liborcus-0.21.0.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/liborcus-0.21.0.tar.xz",
+      "sha256": "1c6e473d6b8a63d61d0e6874a1762d6f0e0e78338d763e48ac93126ecde19b37"
+    },
+    {
+      "component": "libstaroffice",
+      "dependencyKey": "STAROFFICE",
+      "role": "exact pinned source for installed additional MPL format library",
+      "path": "archives/libstaroffice-0.0.8.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libstaroffice-0.0.8.tar.xz",
+      "sha256": "bbca92882e96c55bd1527670866d6bc7529ccb12786da55a2398b60a063378da"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "Upstream macOS distro reference configuration, not the unavailable original build-machine config log",
+      "path": "source-information/LibreOfficeMacOSX.conf",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/distro-configs/LibreOfficeMacOSX.conf",
+      "sha256": "0b9452aaa0a6e77ff3b6b03a753cdeafff258b8cb4511b861790664025c4753c"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "Upstream matching font generation instructions",
+      "path": "source-information/OpenSymbol-build-README",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/52f1115571469f210192cbce6b52e8b7d1d85dc0/extras/source/truetype/symbol/README",
+      "sha256": "e88188444102d76831c696724de2430dca702f9c2a59c2c0076d37ca79456023"
+    },
+    {
+      "component": "LibreOffice-source-evidence",
+      "role": "Original MPL 2.0 text",
+      "path": "source-information/COPYING.MPL2",
+      "url": "https://raw.githubusercontent.com/LibreOffice/core/bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1/COPYING.MPL",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "component": "libabw",
+      "dependencyKey": "ABW",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libabw-0.1.4.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libabw-0.1.4.tar.xz",
+      "sha256": "fa2685a3440da6e03a66a778480d93cb95f6064e4541e58e37397680760fd6a0"
+    },
+    {
+      "component": "libcdr",
+      "dependencyKey": "CDR",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libcdr-0.1.9.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libcdr-0.1.9.tar.xz",
+      "sha256": "f7bb6abdd7f226820f288a93dd8d07759833c0250d9e202af90f9b312c4665a3"
+    },
+    {
+      "component": "libe-book",
+      "dependencyKey": "EBOOK",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libe-book-0.1.4.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libe-book-0.1.4.tar.xz",
+      "sha256": "104b7e791b6632745898e9b6a0037b7540235771a4d8c3bde2c764466ad912f1"
+    },
+    {
+      "component": "libepubgen",
+      "dependencyKey": "EPUBGEN",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libepubgen-0.1.1.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libepubgen-0.1.1.tar.xz",
+      "sha256": "03e084b994cbeffc8c3dd13303b2cb805f44d8f2c3b79f7690d7e3fc7f6215ad"
+    },
+    {
+      "component": "libfreehand",
+      "dependencyKey": "FREEHAND",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libfreehand-0.1.4.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libfreehand-0.1.4.tar.xz",
+      "sha256": "350b10d24a76d7e8c8ae98b74c2d432a2c8ddec08935d09856d20b695a35e600"
+    },
+    {
+      "component": "hyphen",
+      "dependencyKey": "HYPHEN",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/442b985e604f8143a5a0e7bacd6b2e40-hyphen-2.8.9.tar.gz",
+      "url": "https://dev-www.libreoffice.org/src/442b985e604f8143a5a0e7bacd6b2e40-hyphen-2.8.9.tar.gz",
+      "sha256": "783743daf477de8c4d16e3c74b4d2827377017718d8e17e2d9440210246f6abe"
+    },
+    {
+      "component": "libmspub",
+      "dependencyKey": "MSPUB",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libmspub-0.1.5.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libmspub-0.1.5.tar.xz",
+      "sha256": "3671095f5a10bee8a755052a30576952c5b16d8b0f2ba9f2fb998338c18cb119"
+    },
+    {
+      "component": "libpagemaker",
+      "dependencyKey": "PAGEMAKER",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libpagemaker-0.0.4.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libpagemaker-0.0.4.tar.xz",
+      "sha256": "66adacd705a7d19895e08eac46d1e851332adf2e736c566bef1164e7a442519d"
+    },
+    {
+      "component": "libqxp",
+      "dependencyKey": "QXP",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libqxp-0.0.3.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libqxp-0.0.3.tar.xz",
+      "sha256": "4687a9cc96c32d7406e5072c4da150fca696c563e5cde62b024f82fa53d32332"
+    },
+    {
+      "component": "libvisio",
+      "dependencyKey": "VISIO",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libvisio-0.1.11.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libvisio-0.1.11.tar.xz",
+      "sha256": "2a6efd40b6d9dbcb70fba3be53112366882ba97b57151df3698dfa478c8d8dd3"
+    },
+    {
+      "component": "libzmf",
+      "dependencyKey": "ZMF",
+      "role": "exact pinned source for statically included copyleft component; LO patches/build recipes in complete core archive",
+      "path": "archives/libzmf-0.0.2.tar.xz",
+      "url": "https://dev-www.libreoffice.org/src/libzmf-0.0.2.tar.xz",
+      "sha256": "27051a30cb057fdb5d5de65a1f165c7153dc76e27fe62251cbb86639eb2caf22"
+    }
+  ],
+  "fontCorrespondence": {
+    "OpenSymbol": {
+      "actualBinaryVersion": "102.12",
+      "actualBinarySHA256": "f543e6e2d7275557a839a164941c0a86e5f2c3f2a0042bfc434c88c6dde9e140",
+      "editableSourceCommit": "52f1115571469f210192cbce6b52e8b7d1d85dc0",
+      "currentCoreSourceVersion": "102.13",
+      "reason": "Historical source commit updates the same OPENSYMBOL_SHA256SUM as the shipped font; current core canonical SFD differs."
+    }
+  },
+  "revision": "v2-static-copyleft",
+  "supersedesLocalKit": "source-kit"
+}
