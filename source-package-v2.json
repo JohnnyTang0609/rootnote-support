@@ -10,9 +10,11 @@
   "manifest": "source-manifest-v2.json",
   "manifestArtifactCount": 212,
   "archiveFileCount": 254,
-  "plannedDownloadURL": "https://github.com/JohnnyTang0609/rootnote-support/releases/download/office-26.8.1.1-sources-v2/Rootnote-Office-26.8.1.1-Corresponding-Source-v2.tar",
-  "publicDownloadVerified": false,
+  "publicDownloadVerified": true,
   "distributionApproved": false,
   "contactEmail": "1417771997@qq.com",
-  "privateRootnoteSourceIncluded": false
+  "privateRootnoteSourceIncluded": false,
+  "downloadURL": "https://github.com/JohnnyTang0609/rootnote-support/releases/download/office-26.8.1.1-sources-v2/Rootnote-Office-26.8.1.1-Corresponding-Source-v2.tar",
+  "releaseURL": "https://github.com/JohnnyTang0609/rootnote-support/releases/tag/office-26.8.1.1-sources-v2",
+  "anonymousVerificationCompletedAt": "2026-10-15T04:10:40.795265+00:00"
 }
