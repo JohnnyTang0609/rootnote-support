@@ -1,0 +1,139 @@
+Rootnote Mac free beta — modifying an independent local Office copy
+Revision: 2026-10-20; verified candidate: macOS arm64, 0.42.0 build 70.
+
+This is a third-party source/build/installation guide, not Rootnote proprietary
+application source, an Apple SDK redistribution, or a promise of byte-identical
+official builds. Each component retains its original licence. No Rootnote beta
+confidentiality restriction applies to these public third-party materials.
+
+1. Obtain the fixed corresponding source
+
+https://github.com/JohnnyTang0609/rootnote-support/releases/download/office-26.8.1.1-sources-v2/Rootnote-Office-26.8.1.1-Corresponding-Source-v2.tar
+Bytes: 829511680
+SHA256: c6a07aab2df38b99333847b541f954ba42dbc21a690f07ce5277557013367cc7
+
+Verify with shasum -a 256, extract into an empty working directory, and follow
+README-Rootnote-Source-Kit.md and source-manifest.json. Preserve the original
+copyright notices. Fixed LibreOffice core:
+bf6ef2662401c7d6dce671ab4deb26ee0af3a7c1 (26.8.1.1).
+The kit includes full upstream source archives and their actual external build
+and patch files, not merely a link to a moving branch.
+
+2. Build and modify the LGPL dynamic libraries
+
+Fixed source versions and output names:
+- libgpg-error 1.61: libgpg-error.0.dylib
+- libassuan 3.0.2: libassuan.9.dylib
+- GPGME 1.24.3: libgpgme.11.dylib and libgpgmepp.6.dylib
+- lp_solve 5.5 from the pinned archive: liblpsolve55.dylib
+
+Use Apple's command line compiler/linker tools and an arm64 macOS environment.
+The tested flags were -O2 -arch arm64 -mmacosx-version-min=26.0. For the selected
+source revisions, autoconf/automake/libtool/m4 are build tools, not App runtime
+dependencies. The recorded tool versions were autoconf 2.73, automake 1.19,
+libtool 2.6.2 and m4 1.4.21. Other toolchains can require adjustment.
+
+Apply the patches in each component's fixed external/UnpackedTarball_*.mk in
+the kit, in its declared order and with the macOS conditions from that source
+revision. Do not discard a patch merely because its filename mentions w32.
+Respect .patch.1/.patch.0 strip levels; lp_solve's ordinary patches use -p3.
+Stop on a rejected patch; do not hide errors with a fuzzy patch operation.
+Make your intended changes and retain notices identifying your modifications.
+
+Build in dependency order: gpg-error, assuan, GPGME, lp_solve. The tested shared
+configure options, in addition to the fixed upstream patches, were:
+  gpg-error: --disable-rpath --disable-languages --disable-doc --disable-static
+  assuan: --disable-doc --disable-static
+  GPGME: --disable-gpgconf-test --disable-gpg-test --disable-gpgsm-test
+         --disable-g13-test --enable-languages=cpp --disable-static
+The tested prefix for these three was /@.__________________________________________________OOO
+Regenerate assuan/GPGME configure files with autoreconf as required by their
+patched configure.ac/Makefile.am. Run configure and make within each source
+tree; point dependency discovery at your preceding built libraries.
+For lp_solve, run the patched lpsolve55/ccc.osx using clang -arch arm64
+-mmacosx-version-min=26.0. Consult the included fixed makefiles for the complete
+per-component build inputs and platform conditions.
+
+Before replacement, compare file, lipo -archs, nm -gjU and otool -L output with
+the receiving App's original libraries. Keep arm64, the existing public ABI,
+install-name identities and a compatible minimum OS. In the recorded test,
+each library gained a separate public marker function; no original exported
+symbol was removed. This is not a general ABI compatibility guarantee.
+
+3. Work only on an independent App copy
+
+Keep the installed App and original vault untouched. Clone/copy your own App
+to a new working location; an APFS clone preserves space. For example:
+  cp -c -R -p "/path/to/Rootnote Beta.app" "/path/to/Rootnote Source Test.app"
+
+In the COPY ONLY, give Contents/Info.plist a separate CFBundleIdentifier, e.g.
+dev.jt.rootnote.source-modification-test, and a distinct display name. Give
+the Rootnote BoardThumbnails.appex its matching child identifier. Remove only
+the copy's embedded.provisionprofile files: a local signature does not use the
+publisher's profile, team credentials or private signing keys.
+
+Replace the five libraries at:
+  Contents/Frameworks/LibreOfficeRuntime.app/Contents/Frameworks/
+Use otool -L and install_name_tool -change to change any newly built library's
+development-machine dependency paths to contained @loader_path references,
+matching the receiving runtime. In particular, assuan uses the sibling
+gpg-error library; gpgme/gpgmepp use the corresponding sibling dependencies.
+Do not create system-wide placeholder directories or overwrite system libs.
+
+4. Re-sign the COPY locally, from the inside out
+
+Use an ad-hoc signature (codesign --force --sign - --timestamp=none), not the
+publisher's identity. Sign actual Mach-O files, then their enclosing nested
+frameworks/apps/plugins deepest first, and finally the outer App. Preserve
+contained relative symlinks. Do not use an enclosing-bundle command as a
+substitute for explicitly handling nested executables and entitlements.
+
+All other standalone runtime executables, including the Python helper and
+the runtime main executable, require app-sandbox and inherit. Retain those
+entitlements when sealing their enclosing Python.app/LibreOfficeRuntime.app.
+
+OfficeWorker needs a plist with these true entitlements:
+  com.apple.security.app-sandbox
+  com.apple.security.inherit
+  com.apple.security.cs.allow-jit
+Sign it with --entitlements worker.entitlements --generate-entitlement-der.
+BoardThumbnails.appex uses app-sandbox and files.user-selected.read-only.
+The outer copied App needs these true entitlements:
+  com.apple.security.app-sandbox
+  com.apple.security.network.client
+  com.apple.security.files.user-selected.read-write
+  com.apple.security.files.bookmarks.app-scope
+Sign the outer App with its own corresponding entitlement plist. The tested
+local copy was not signed with Hardened Runtime options; this changes only
+that independent copy. Do not disable SIP, Gatekeeper or global system
+security settings, and do not change the installed publisher App's signature.
+
+Run codesign --verify --deep --strict on the final copied App. A missing or
+incompatible library, unresolved development path, or invalid nested signature
+is a failed preparation, not a reason to remove the sandbox.
+
+5. Test using the full copied App and a disposable vault
+
+Open the copied App. Select a synthetic/test vault through its actual system
+"Open Vault" folder picker. A command-line path alone does NOT grant sandbox
+write access and cannot replace that picker. The test copy has its own local
+identity; do not assume it inherits the installed App's folder grants.
+
+For build 70, normal DOCX uses the bundled Word web editor; old Word annotations
+and references can use the retained legacy Office reader. Excel opening,
+indexing and preview were deliberately removed from this candidate. Do not
+re-enable Excel or treat its unavailable UI as a library replacement failure.
+
+The recorded complete modified App edited a synthetic DOCX, saved, closed and
+reopened it with original body/table/image/header/footer content retained.
+A synthetic old-format Word annotation then exercised the actual legacy
+reader. The App's own OfficeWorker loaded all five rebuilt libraries from the
+copy, verified by its process parent/path and loaded-image mappings. The formal
+candidate remained unchanged. This was a local modified-copy test, not a claim
+that Apple re-signed the modified App or that it remains an official TestFlight
+build. The five library compilations were performed earlier against the fixed
+source versions; the build-70 test reused those verified modified outputs.
+
+Contact for the fixed source/build materials or a broken download:
+1417771997@qq.com (mention Office 26.8.1.1, source kit v2).
+Do not send private notes, passwords, receipts or signing keys.
